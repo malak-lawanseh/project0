@@ -1,0 +1,38 @@
+.googleimg{
+display: grid ;
+grid-template-columns: auto;
+height: 100px;
+width :50%;
+/* margin-left: 25%; */
+margin: auto;
+
+
+}
+#search{
+display: grid ;
+grid-template-columns: auto auto;
+
+
+
+}
+#img{
+    height: 300px;
+    width: fit-content;
+    margin-left: 25%;
+}
+.googleimg a{    
+    
+    background-color:rgb(239 239 239);
+    border: 1px solid #767676;
+    text-decoration:none; 
+    color: black;
+    font-size: large;
+    padding: 25px;
+    text-align: center;
+}
+#serach a , #serach input{
+    width: 100px;
+    height: 200px;
+
+
+}
