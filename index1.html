@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="about.css">
+ <title>advanced_search</title>
+</head>
+<body>
+    <h2>Google</h2>
+    <div id ="droplist">
+    <h1>Advanced Search</h1>
+    <form action="https://www.google.com/advanced_search">
+       <label for="as_q">all these words:</label> <input type="text" name="as_q" >
+       <label for="as_epq">this exact word or phrase:</label> <input type="text" name="as_epq" >
+       <label for="as_oq">any of these words:</label> <input type="text" name="as_oq" >
+       <label for="as_eq">none of these words:</label> <input type="text" name="as_eq" >
+       <label for="as_nlo">numbers ranging from:</label> <input type="text" name="as_nlo" >
+       <label for="as_nhi">to</label> <input type="text" name="as_nhi" >
+       
+       <label for="lan">language:</label><select ><option  > english</option><option > arabic</option></select>
+       <label for="lan">region:</label><select ><option > korea </option><option > jordan </option></select>
+       <label for="lan">last update:</label><select ><option > past 24h </option><option > past week </option></select>
+      
+       <label for="q1">site or domain:</label> <input type="text" name="q1" >
+
+       <label for="lan">terms appearing:</label><select ><option > in the title of the page </option><option > in the url of the page </option></select>
+       <label for="lan">safeSearch:</label><select ><option > show explicit results </option><option > hide explicit results </option></select>
+       <label for="lan">usage rights:</label><select ><option > no filtered by licence </option><option > free to used or share </option></select>
+        <button onclick="https://www.google.com/advanced_search">Advanced Search</button>
+    </form>
+    </div>
+</body>
+</html>
