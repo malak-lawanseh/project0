@@ -1,12 +1,15 @@
+body {
+    height: 1000px;
+}
 .googleimg{
-display: grid ;
-grid-template-columns: auto;
-grid-gap: 20px;
+/* display: grid ; */
+/* grid-template-columns: auto; */
+/* grid-gap: 20px; */
 
-height: 100px;
+/* height: 100px; */
 width :50%;
-/* margin-left: 25%; */
-margin: auto;
+margin-left: 20%;
+
 
 
 }
@@ -16,12 +19,21 @@ grid-template-columns: auto auto;
 grid-gap: 20px;
 
 
-
 } 
+body form input[type="text"]{
+    height: 50px;
+    width: 1500px;
+    border-radius: 50px;
+    
+   
+    
+}
 #img{
+    display: block;
+    margin-top: 500px;
     height: 200px;
     width: fit-content;
-    margin-left: 35%;
+    margin:200px auto auto;
 }
 .googleimg a{    
     
@@ -34,10 +46,80 @@ grid-gap: 20px;
     text-align: center;
     
 }
-#serach a , #serach input{
-    width: 100px;
-    height: 50px;
+#search a , #search input{
+        font-size: 31px;
+        border: none;
+        border-radius: 10px;
+        margin-top: 15%;
+        margin-left: 25%;
 }
+
 .googleimg a:hover{
     background-color :rgb(223, 223, 223);
+}
+body header a{
+    margin-left: 80%;
+    text-decoration: none;
+    font-size: 31px;
+    color: black;
+}
+
+#droplist form{
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    /*margin: auto;*/
+    margin-left: 20PX;
+    width: 70%;
+    
+   
+}
+#droplist form input[type="text"]{
+    width: 700px;
+    height: 50px;
+    
+}
+#droplist form label{
+    font-size: 31px;
+
+}
+#droplist form select{
+    width: 708.5px;
+    height: 50px;
+
+}
+#droplist form  label{
+    font-size: 31px;
+}
+#droplist form div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#size {
+    display: flex;
+    justify-content: space-between;
+    width: 708px;
+}
+#droplist form select {
+    font-size: 31px;
+    text-align: center;
+}
+body header div{
+    display: flex;
+    gap: 1000px;
+}
+body header div a{
+    text-decoration:none;
+    
+}
+body header h1{
+    padding-bottom:30px ;
+
+    border-bottom: 1px solid black;
+}
+#topcolor{
+    padding-top:30px ;
+    border-top: 1px solid black;
+
 }
