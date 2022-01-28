@@ -3,92 +3,71 @@
 
 <head>
 
-    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="advanced_search.css">
     <title>advanced_search</title>
 </head>
 
 <body>
-    
+
+
     <header>
-        <div>
+        <div id="place_ofHeaders">
+
             <h2>Google</h2>
             <a href="index.html">
-                <button style="display: block;">home:D</button>
+                <button id="SizeOfButton">Home</button>
             </a>
+
         </div>
-        
-       <h1>Advanced Search</h1>
+
+        <h1 id=>Advanced Search</h1>
 
     </header>
 
-    
     <div id="droplist">
-        
-        
-        <br>
 
-        <form action="https://www.google.com/advanced_search">
+        <form action="https://google.com/search">
+
             <div>
-                <label for="as_q">all these words:</label> <input type="text" name="as_q">
+                <label for="as_q">all these words:</label>
+                <input type="text" name="as_q">
             </div>
-            <div><label for="as_epq">this exact word or phrase:</label> <input type="text" name="as_epq"></div>
-            <div> <label for="as_oq">any of these words:</label> <input type="text" name="as_oq"></div>
+
+
+            <div>
+                <label for="as_epq">this exact word or phrase:</label>
+                <input type="text" name="as_epq">
+
+            </div>
+
+
+            <div>
+
+                <label for="as_oq">any of these words:</label>
+                <input type="text" name="as_oq">
+
+            </div>
+
 
             <div>
                 <label for="as_eq">none of these words:</label>
-                <input type="text" name="as_eq"></div>
-            <div > <label for="as_nlo">numbers ranging from:</label>
+                <input type="text" name="as_eq">
 
-                <div id="size">
-                   
-                    <input type="text" name="as_nlo">
-                    <span style="font-size: 35px; padding: 5px 15px;">to</span>
-                    <input type="text" name="as_nhi">
-                </div>
             </div>
-            <br >
-            <div id="topcolor">
-                
-               
-                   <label for="lan">language:</label><select>
-                    <option> english</option>
-                    <option> arabic</option>
-                </select></div>
-             
 
+            <div>
 
-            <div><label for="lan">region:</label><select>
-                    <option> korea </option>
-                    <option> jordan </option>
-                </select></div>
-            <div><label for="lan">last update:</label><select>
-                    <option> past 24h </option>
-                    <option> past week </option>
-                </select></div>
+                <label for="as_nlo">numbers ranging from:</label>
+                <div id="size">
+                    <input type="text" name="as_nlo" style="width: 310px;">
+                    <label for="as_nhi">to</label> <input type="text" name="as_nhi" style="width: 310px;">
+                </div>
 
+            </div>
 
-            <div><label for="q1">site or domain:</label> <input type="text" name="q1"></div>
-
-            <div><label for="lan">terms appearing:</label><select>
-                    <option> in the title of the page </option>
-                    <option> in the url of the page </option>
-                </select></div>
-
-            <div><label for="lan">safeSearch:</label><select>
-                    <option> show explicit results </option>
-                    <option> hide explicit results </option>
-                </select></div>
-
-            <div> <label for="lan">usage rights:</label><select>
-                    <option> no filtered by licence </option>
-                    <option> free to used or share </option>
-                </select></div>
-                <br>
-            <button>Advanced Search</button>
+            <button type="submit">Advanced Search</button>
         </form>
-
     </div>
-
 </body>
 
 </html>

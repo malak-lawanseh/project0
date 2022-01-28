@@ -1,0 +1,76 @@
+
+#droplist form{
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    /*margin: auto;*/
+    margin-left: 100px;
+    width: 70%;
+    
+   
+}
+#droplist form button{
+    width: 300px;
+    height: 50px;
+    font-size: 31px;
+    margin-left:83% ;
+    
+}
+#droplist form input[type="text"]{
+    width: 700px;
+    height: 50px;
+    font-size: 31px;
+    
+}
+#droplist form label{
+    font-size: 31px;
+    margin-left: 25px ;
+    margin-right: 25px;}
+
+
+#droplist form div {
+    display: flex;
+    justify-content: space-between;
+    
+}
+#droplist form span{
+    /* margin-left: 25px ;
+    margin-right: 25px; */
+    height: 30px;
+    display:inline;
+    vertical-align: middle;
+
+}
+
+
+#size input {
+    
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+body header div a{
+    text-decoration:none;
+    
+    
+}
+
+
+body header h1{
+    padding-bottom:30px ;
+
+    border-bottom: 1px solid black;
+}
+#place_ofHeaders{
+    display:grid;
+    grid-template-columns: auto auto;
+    gap: 80%;
+}
+#SizeOfButton{
+    width: 150px;
+    height: 50px;
+    font-size: 31px;
+    border: none;
+}
